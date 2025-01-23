@@ -1,0 +1,45 @@
+/*---------------------------simple overlay-------------------------*/
+.x, .y{
+	padding: 100px 40px;
+}
+.x{
+	float: left;
+}
+h2{
+	margin-bottom: 50px;
+}
+.box1{
+	position: relative;
+	border: 1px solid blue;
+}
+.box1 img{
+	width: 100%;
+	display: block;
+}
+.overlay1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #011f4b;
+	opacity: 0;
+	transition: .4s;
+}
+.overlay1:hover{
+	opacity: 0.6;
+}
+.d1{
+	margin: 0;
+	width: 252px;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
